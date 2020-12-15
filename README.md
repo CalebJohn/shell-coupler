@@ -24,6 +24,7 @@ In it's current state, Coupler is just a proof-of-concept for the idea of replac
 
 If I find that I'm relying on Coupler, I'll probably start implementing some of the below.
 - [ ] Enable the `Tab` key in the editor (didn't I say this was proof-of-concept?)
+- [ ] Allow scrolling of both views
 - [ ] Add a configuration system
 	- [ ] Support custom scripting languages
 	- [ ] Support custom styles
