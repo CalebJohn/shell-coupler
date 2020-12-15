@@ -1,7 +1,8 @@
 # Coupler
-
 Coupler (`cpl` in the terminal) is an experimental tool to replace the standard terminal workflow of `commands | seperated | by | pipes` by injecting a pipe "coupler" that replaces the traditional shell commands with an interactive scripting environment. The purpose is to replace all the intermediary commands with 1 shell script `input | cpl | output`.
+
 Currently only python is supported as a scripting language, in fact there is no way to configure any aspect of Coupler at this time. This project was written in one inspiration filled weekend and as such does not support [everything I want](#vision) and the code could rightfully be called spaghetti by someone other than me.
+
 Coupler is primarily an experiment for myself in alternative ways of interacting with the shell, I don't know if it will be of use to anyone else but I think it's a neat idea, and hope you do too!
 
 # Example
@@ -28,3 +29,4 @@ If I find that I'm relying on Coupler, I'll probably start implementing some of 
 	- [ ] Support custom styles
 - [ ] Add an external editor option
 
+I don't know if I will ever get around to adding any of these. At it's heart, this project is just an experiment into an idea I had to help with scripting on the shell. If you're looking for a better shell experience, I would recommend [nushell](https://www.nushell.sh/) which rewrites the basic shell commands with a focus on structured data passing.
